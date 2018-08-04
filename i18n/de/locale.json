@@ -1,32 +1,11 @@
 {
   "bar": {
-    "message": "bar in german"
-  },
-  "feed_no_change": {
-    "message": "feed no change french"
-  },
-  "i18n": {
-    "message": "i18n in german"
-  },
-  "introduction": {
-    "message": "introduction german"
-  },
-  "pluralkey": {
-    "message": "plural german"
-  },
-  "pluralkey_plural": {
-    "message": "plural key german"
+    "message": "bar ccccc\n"
   },
   "so": {
-    "message": "this is successfull french translations"
-  },
-  "state-object": {
-    "message": "state object in german"
+    "message": "To get started, edit <1>src/App.js</1> and save to reload."
   },
   "stuff": {
-    "message": "stuff in french\n"
-  },
-  "Welcome to React": {
-    "message": "Welkomen by react dutch"
+    "message": "dutch translation"
   }
 }
