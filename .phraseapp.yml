@@ -1,23 +1,23 @@
-phraseapp:
-  access_token: "80abf10576e77936022717f0706502cca61125953ac21f17661ec187efcce0ed"
-  project_id: "7a9e7f65cc179ce2a8d625232e7f7042"
-  file_format: "json"
-  push:
-    sources:
-    - file: ./i18n/de/resource.json
-      params:
-        update_translations: true
-        locale_id:  c5463cf96b6c8beba92d939dfc69c37b
-    - file: ./i18n/nl/resource.json
-        params:
-        update_translations: true
-        locale_id:  f56573ed1753b926750e2ffc04885cc2
-    - file: ./i18n/fr/resource.json
-        params:
-        update_translations: true
-        locale_id:  02fc69261a30fe0702ccff59d31c0799
-  pull:
-    targets:
-    - file: ./i18n/de/locale.json
-    - file: ./i18n/fr/locale.json
-    - file: ./i18n/nl/locale.json
+phraseapp: 
+  access_token: 80abf10576e77936022717f0706502cca61125953ac21f17661ec187efcce0ed
+  file_format: json
+  project_id: 7a9e7f65cc179ce2a8d625232e7f7042
+  pull: 
+    targets: 
+      - file: ./i18n/de/locale.json
+      - file: ./i18n/fr/locale.json
+      - file: ./i18n/nl/locale.json
+  push: 
+    sources: 
+      - file: ./i18n/de/resource.json
+        params: 
+          locale_id: c5463cf96b6c8beba92d939dfc69c37b
+          update_translations: true
+      - file: ./i18n/nl/resource.json
+        params: 
+          locale_id: f56573ed1753b926750e2ffc04885cc2
+          update_translations: true
+      - file: ./i18n/fr/resource.json
+        params: 
+          locale_id: 02fc69261a30fe0702ccff59d31c0799
+          update_translations: true
