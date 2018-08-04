@@ -7,23 +7,23 @@ phraseapp:
       - file: ./i18n/en/locale.json
         params: 
           locale_id: 556450dfae1fe937e0798bda63223566
-          update_translations: true
+          update_translations: false
       - file: ./i18n/de/locale.json
         params: 
           locale_id: 55f47efa7977f201a8aa253208483212
-          update_translations: true
+          update_translations: false
       - file: ./i18n/fr/locale.json
         params: 
           locale_id: 50c91ae8bfb062ac437d531b1ff8dd8c
-          update_translations: true
+          update_translations: false
       - file: ./i18n/nl/locale.json
         params: 
           locale_id: 53a422b8c790e88eca3bb84d8ca98a52
-          update_translations: true
+          update_translations: false
       - file: ./i18n/it/locale.json
         params: 
           locale_id: dac0b4bad3daa030cf0353c7e92d8dcf
-          update_translations: true
+          update_translations: false
   push: 
     sources:
       - file: ./i18n/de/resource.json
