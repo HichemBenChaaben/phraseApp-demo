@@ -1,1 +1,14 @@
-{}
+{
+  "bar": {
+    "message": "bar in german"
+  },
+  "so": {
+    "message": "something in german"
+  },
+  "state-object": {
+    "message": "state object in german"
+  },
+  "stuff": {
+    "message": "stuff in german"
+  }
+}
