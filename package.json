@@ -1,0 +1,51 @@
+{
+  "name": "react-i18next-phraseapp-demo",
+  "version": "1.0.0",
+  "description": "Demo app to showcase react-i18next-phraseapp",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "collect": "i18next-scanner --config i18next-scanner.config.js 'src/**/*.{js,jsx}'"
+  },
+  "keywords": [
+    "phraseapp",
+    "i18n",
+    "l10n",
+    "react",
+    "translation",
+    "i18next"
+  ],
+  "author": "Manuel Boy",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "compact-json-loader": "^0.1.1",
+    "express": "^4.15.2",
+    "html-webpack-plugin": "^3.2.0",
+    "i18next": "^7.1.3",
+    "i18next-scanner": "^2.6.5",
+    "i18next-xhr-backend": "^1.5.1",
+    "json-loader": "^0.5.7",
+    "raw-loader": "^0.5.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-i18next": "^7.10.1",
+    "react-i18next-phraseapp": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "enzyme": "^2.8.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-test-renderer": "^15.4.2",
+    "regenerator-runtime": "^0.10.3",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

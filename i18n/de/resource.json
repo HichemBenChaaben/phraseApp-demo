@@ -1,0 +1,8 @@
+{
+  "i18n": "__STRING_NOT_TRANSLATED__",
+  "introduction": "To get started, edit <1>src/App.js</1> and save to reload.",
+  "feed_no_change": "Data <1>no change</1>. No update is performed. Please click<3>Force Update</3>.",
+  "Welcome to React": "__STRING_NOT_TRANSLATED__",
+  "pluralkey": "you can do <1>{{count}}</1> plurals.",
+  "pluralkey_plural": "you can do <1>{{count}}</1> plurals."
+}

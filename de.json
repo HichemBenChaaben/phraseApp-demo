@@ -1,0 +1,8 @@
+{
+  "sample-title": "<0>title in german</0>",
+  "something": "<0>german translation...</0>",
+  "pluralisationkey": "german translation here <1>{{count}}</1> product",
+  "pluralisationkey_plural": "german translate <1>{{count}}</1> product",
+  "this is a constant message": "__STRING_NOT_TRANSLATED__",
+  "i18n": "__STRING_NOT_TRANSLATED__"
+}
