@@ -18,6 +18,15 @@ class App extends Component {
           <button onClick={() => changeLanguage("fr")}>fr</button>
           <button onClick={() => changeLanguage("nl")}>nl</button>
         </div>
+        <div>
+          {t("message with t props..")}
+          <Trans i18nKey="welcome message">
+            this is a welcome message here.
+          </Trans>
+          <Trans i18nKey="another welcome message">
+            Another welcome message.
+          </Trans>
+        </div>
         <div className="App-intro">
           <Trans i18nKey="introduction">
             To get started, edit <code>src/App.js</code> and save to reload.
