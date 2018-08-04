@@ -1,6 +1,6 @@
 phraseapp: 
   access_token: 80abf10576e77936022717f0706502cca61125953ac21f17661ec187efcce0ed
-  file_format: json
+  file_format: react_simple_json
   project_id: 7a9e7f65cc179ce2a8d625232e7f7042
   pull: 
     targets: 
