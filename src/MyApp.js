@@ -26,6 +26,9 @@ class App extends Component {
           <Trans i18nKey="another welcome message">
             Another welcome message.
           </Trans>
+          <Trans i18nKey="samplekey">
+            lorem ipsum ...
+          </Trans>
         </div>
         <div className="App-intro">
           <Trans i18nKey="introduction">
