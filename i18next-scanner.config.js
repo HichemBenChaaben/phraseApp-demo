@@ -21,7 +21,7 @@ module.exports = {
     },
     lngs: ['de', 'fr', 'nl'],
     ns: [
-      'locale',
+      // 'locale',
       'resource'
     ],
     defaultLng: 'en',

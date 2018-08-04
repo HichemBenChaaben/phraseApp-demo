@@ -35,8 +35,11 @@ class App extends Component {
             </a>
             .
           </Trans>
-          <Trans count={10} i18nKey="pluralkey">
+          <Trans count={10} i18nKey="counting">
             you can do {{count}} plurals.
+          </Trans>
+          <Trans i18nKey="new-translation-text">
+            New translation added.
           </Trans>
         </div>
         <div style={{ marginTop: 40 }}>
