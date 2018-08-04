@@ -4,7 +4,11 @@ phraseapp:
   file_format: "json"
   push:
     sources:
-    - file: "./i18n/*/*.json"
+    - file: "./i18n/de/locale.json"
+    - file: "./i18n/nl/locale.json"
+    - file: "./i18n/fr/locale.json"
   pull:
     targets:
-    - file: "./i18n/resources/*.json"
+    - file: "./i18n/de/resource.json"
+    - file: "./i18n/fr/resource.json"
+    - file: "./i18n/nl/resource.json"
