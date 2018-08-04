@@ -2,13 +2,31 @@
   "bar": {
     "message": "bar in german"
   },
+  "feed_no_change": {
+    "message": "feed no change french"
+  },
+  "i18n": {
+    "message": "i18n in german"
+  },
+  "introduction": {
+    "message": "introduction german"
+  },
+  "pluralkey": {
+    "message": "plural german"
+  },
+  "pluralkey_plural": {
+    "message": "plural key german"
+  },
   "so": {
-    "message": "something in german"
+    "message": "this is successfull french translations"
   },
   "state-object": {
     "message": "state object in german"
   },
   "stuff": {
-    "message": "stuff in german"
+    "message": "stuff in french\n"
+  },
+  "Welcome to React": {
+    "message": "Welkomen by react dutch"
   }
 }
