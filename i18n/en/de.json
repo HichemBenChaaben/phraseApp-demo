@@ -1,13 +1,10 @@
 {
   "another welcome message": "Another welcome message.",
+  "counting": "qwjdqjd[qwjd ",
+  "counting_plural": "qwdqwdqwd",
   "differentstuff": "this is from the block namespace",
   "feed_no_change": "Data <1>no change</1>. No update is performed. Please click<3>Force Update</3>.",
   "i18n": "__STRING_NOT_TRANSLATED__",
-  "inc": "support incremental update ?",
-  "inc2": "new translation coming212312p123...",
-  "inc3": "new translation coming312312h31...",
-  "inc4": "new string...",
-  "inc5": "new stringqwdjqwdjqwd j...",
   "introduction": "To get started, edit <1>src/App.js</1> and save to reload.",
   "message with t props..": "__STRING_NOT_TRANSLATED__",
   "new-translation-text": "New translation added.",
@@ -16,4 +13,3 @@
   "welcome message": "this is a welcome message here.",
   "Welcome to React": "__STRING_NOT_TRANSLATED__"
 }
-
