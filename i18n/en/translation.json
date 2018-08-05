@@ -1,37 +1,15 @@
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  "another welcome message": "Another welcome message.",
-  "differentstuff": "this is from the block namespace",
-  "feed_no_change": "Data <1>no change</1>. No update is performed. Please click<3>Force Update</3>.",
-  "i18n": "__STRING_NOT_TRANSLATED__",
-  "inc": "support incremental update ?",
-  "introduction": "To get started, edit <1>src/App.js</1> and save to reload.",
-  "message with t props..": "__STRING_NOT_TRANSLATED__",
-  "new-translation-text": "New translation added.",
-  "samplekey": "lorem ipsum ...",
-  "thi is from the block namespace": "__STRING_NOT_TRANSLATED__",
-  "welcome message": "this is a welcome message here.",
-  "Welcome to React": "__STRING_NOT_TRANSLATED__"
-}
-=======
   "thi is from the block namespace": "__STRING_NOT_TRANSLATED__",
   "differentstuff": "this is from the block namespace",
   "i18n": "__STRING_NOT_TRANSLATED__",
->>>>>>> f79907edb9c89eb924984f064acdd2c3b6b318ca
   "Welcome to React": "__STRING_NOT_TRANSLATED__",
-  "another welcome message": "Another welcome message.",
-  "differentstuff": "this is from the block namespace",
-  "feed_no_change": "Data <1>no change</1>. No update is performed. Please click<3>Force Update</3>.",
-  "i18n": "__STRING_NOT_TRANSLATED__",
-  "inc": "support incremental update ?",
-  "inc2": "new translation coming",
-  "introduction": "To get started, edit <1>src/App.js</1> and save to reload.",
   "message with t props..": "__STRING_NOT_TRANSLATED__",
-  "new-translation-text": "New translation added.",
+  "inc2": "new translation coming3...",
+  "inc": "support incremental update ?",
+  "welcome message": "this is a welcome message here.",
+  "another welcome message": "Another welcome message.",
   "samplekey": "lorem ipsum ...",
-  "thi is from the block namespace": "__STRING_NOT_TRANSLATED__",
-  "welcome message": "this is a welcome message here."
+  "introduction": "To get started, edit <1>src/App.js</1> and save to reload.",
+  "feed_no_change": "Data <1>no change</1>. No update is performed. Please click<3>Force Update</3>.",
+  "new-translation-text": "New translation added."
 }
->>>>>>> abce2716329f5080bab3140821418cb4858a9c21
