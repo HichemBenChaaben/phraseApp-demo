@@ -12,22 +12,6 @@ phraseapp:
         params: 
           locale_id: 5d1242900dbc846e78854ed9343f68ae
           update_translations: false
-      - file: ./i18n/fr/translation.json
-        params: 
-          locale_id: f8b3bb5e9e7e175873f15a0a41d2b611
-          update_translations: false
-      - file: ./i18n/nl/translation.json
-        params: 
-          locale_id: 38e370118ae8bdf9f8fed68397f617de
-          update_translations: false
-      - file: ./i18n/it/translation.json
-        params: 
-          locale_id: 6ad5cbbf0d61bf0cf03db0de6c1f1951
-          update_translations: false
-      - file: ./i18n/ar/translation.json
-        params: 
-          locale_id: 680d94d98f55ebf56f9dd59c45d6dcfa
-          update_translations: false
   push: 
     sources:
       - file: ./i18n/en/translation.json
@@ -37,21 +21,5 @@ phraseapp:
       - file: ./i18n/de/translation.json
         params: 
           locale_id: 5d1242900dbc846e78854ed9343f68ae
-          update_translations: false
-      - file: ./i18n/fr/translation.json
-        params: 
-          locale_id: f8b3bb5e9e7e175873f15a0a41d2b611
-          update_translations: false
-      - file: ./i18n/nl/translation.json
-        params: 
-          locale_id: 38e370118ae8bdf9f8fed68397f617de
-          update_translations: false
-      - file: ./i18n/it/translation.json
-        params: 
-          locale_id: 6ad5cbbf0d61bf0cf03db0de6c1f1951
-          update_translations: false
-      - file: ./i18n/ar/translation.json
-        params: 
-          locale_id: 680d94d98f55ebf56f9dd59c45d6dcfa
           update_translations: false
 
