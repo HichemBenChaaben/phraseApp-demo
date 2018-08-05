@@ -55,3 +55,4 @@ Questions? [Contact us](https://phraseapp.com/contact).
         - full integration with github secret key and webhooks
             this will push / pull to the repo
          - fixing conflicts ?
+    - what happen if you change a namespace ?

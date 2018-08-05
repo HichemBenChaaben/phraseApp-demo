@@ -4,6 +4,7 @@ var chalk = require('chalk');
 module.exports = {
   options: {
     // debug: true,
+    sort: true,
     removeUnusedKeys: true,
     func: {
       list: ['i18next.t', 'i18n.t', 't'],
