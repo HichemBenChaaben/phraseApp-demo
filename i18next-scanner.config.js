@@ -19,7 +19,7 @@ module.exports = {
         return sha1(value);
       }
     },
-    lngs: ['en', 'de', 'fr', 'nl', 'ar'],
+    lngs: ['en'],
     ns: ['translation'],
     defaultLng: 'en',
     // defaultNs: 'resource',
