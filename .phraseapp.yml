@@ -4,25 +4,17 @@ phraseapp:
   project_id: 7a9e7f65cc179ce2a8d625232e7f7042
   pull: 
     targets: 
-      - file: ./i18n/en/translation.json
+      - file: ./i18n/en/<locale_name>.json
         params: 
           locale_id: 556450dfae1fe937e0798bda63223566
-          update_translations: false
+          update_translations: true
   push: 
     sources:
-      - file: ./i18n/en/translation.json
+      - file: ./i18n/en/<locale_name>.json
         params: 
           locale_id: 556450dfae1fe937e0798bda63223566
           update_translations: false
-      - file: ./i18n/de/translation.json
+      - file: ./i18n/de/<locale_name>.json
         params: 
           locale_id: 5d1242900dbc846e78854ed9343f68ae
-          update_translations: false
-      - file: ./i18n/fr/translations.json
-        params:
-          locale_id: 063c47c62f6254e078038b90c53bc782
-          update_translations: true
-      - file : ./i18n/nl/translation.json
-        params:
-          locale_id: e61c42bb0016e205c1d8049fdfc7db6f
           update_translations: true
