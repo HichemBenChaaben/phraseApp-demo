@@ -8,10 +8,6 @@ phraseapp:
         params: 
           locale_id: 556450dfae1fe937e0798bda63223566
           update_translations: false
-      - file: ./i18n/de/translation.json
-        params: 
-          locale_id: 5d1242900dbc846e78854ed9343f68ae
-          update_translations: false
   push: 
     sources:
       - file: ./i18n/en/translation.json
