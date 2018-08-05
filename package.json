@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",
-    "collect": "i18next-scanner --config i18next-scanner.config.js 'src/**/*.{js,jsx}'"
+    "collect": "i18next-scanner --config i18next-scanner.config.js 'src/**/*.js'",
+    "collect:clear": "rm -rf i18n"
   },
   "keywords": [
     "phraseapp",

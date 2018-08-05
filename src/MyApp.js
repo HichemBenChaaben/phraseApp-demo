@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { translate, Trans } from "react-i18next";
+import Block from './Block';
 
 class App extends Component {
   render() {
@@ -47,9 +48,6 @@ class App extends Component {
             </a>
             .
           </Trans>
-          <Trans count={10} i18nKey="counting">
-            you can do {{count}} plurals.
-          </Trans>
           <Trans i18nKey="new-translation-text">
             New translation added.
           </Trans>
@@ -58,6 +56,9 @@ class App extends Component {
           <a href="https://react.i18next.js">
             Learn more: https://react.i18next.js
           </a>
+        </div>
+        <div>
+          <Block />
         </div>
       </div>
     );
