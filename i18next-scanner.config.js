@@ -20,7 +20,7 @@ module.exports = {
       }
     },
     lngs: ['en'],
-    ns: ['translation'],
+    // ns: ['translation'],
     defaultLng: 'en',
     // defaultNs: 'resource',
     defaultValue: '__STRING_NOT_TRANSLATED__',

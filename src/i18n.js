@@ -9,11 +9,11 @@ import Backend from 'i18next-xhr-backend';
 const i18n = i18next
   .use(Backend)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: 'translations',
     debug: true,
     backend: {
-      loadPath: 'i18n/{{lng}}/locale.json',
-      addPath: 'i18n/{{lng}}/add/{{lng}}/{{ns}}',
+      loadPath: 'i18n/en/{{lng}}.json',
+      // addPath: 'i18n/{{lng}}/add/{{lng}}/{{ns}}',
       crossDomain: false,
       // parse: (data) => data,
       // ajax: loadLocales

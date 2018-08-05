@@ -8,6 +8,7 @@ class Block extends Component {
       <div>
         {t('thi is from the block namespace')}
         <Trans i18nKey="differentstuff">this is from the block namespace</Trans>
+        <Trans i18nKey="differentstuff2">this is from the block namespaceqdqwdqw</Trans>
       </div>
     );
   }

@@ -20,6 +20,10 @@ class App extends Component {
           <button onClick={() => changeLanguage("nl")}>nl</button>
         </div>
         <div>
+
+          <div>
+            <input placeholder={t('some placeholder')} /> 
+          </div>
           {t("message with t props..")}
           <Trans i18nKey="inc6">neqwdojqwdojqwd qowjdoqwdj qjqwdjqwd j...</Trans>
           <Trans i18nKey="inc5">new stringqwdjqwdjqwd j...</Trans>
