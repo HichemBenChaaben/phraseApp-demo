@@ -15,15 +15,12 @@ const i18n = i18next
       loadPath: 'i18n/en/{{lng}}.json',
       // addPath: 'i18n/{{lng}}/add/{{lng}}/{{ns}}',
       crossDomain: false,
-      // parse: (data) => data,
-      // ajax: loadLocales
-    //   // loadPath: '/locales/{{lng}}/{{ns}}.json'
     },
+    allowMultiLoading: true,
     // lng: 'de',
     // have a common namespace used around the full app
-    // ns: ["translations"],
-    // defaultNS: "translations",
-
+    ns: ["translations"],
+    defaultNS: "translations",
     // resources: {
     //   en: {
     //     translation: en

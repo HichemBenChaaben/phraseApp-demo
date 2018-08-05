@@ -20,9 +20,9 @@ module.exports = {
       }
     },
     lngs: ['en'],
-    // ns: ['translation'],
+    ns: ['translation'],
     defaultLng: 'en',
-    // defaultNs: 'resource',
+    defaultNs: 'translation',
     defaultValue: '__STRING_NOT_TRANSLATED__',
     resource: {
       loadPath: 'i18n/{{lng}}/{{ns}}.json',
