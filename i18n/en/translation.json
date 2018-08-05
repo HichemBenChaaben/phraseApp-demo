@@ -8,6 +8,7 @@
   "inc3": "new translation coming312312h31...",
   "inc4": "new string...",
   "inc5": "new stringqwdjqwdjqwd j...",
+  "inc6": "neqwdojqwdojqwd qowjdoqwdj qjqwdjqwd j...",
   "introduction": "To get started, edit <1>src/App.js</1> and save to reload.",
   "message with t props..": "__STRING_NOT_TRANSLATED__",
   "new-translation-text": "New translation added.",
@@ -17,3 +18,4 @@
   "Welcome to React": "__STRING_NOT_TRANSLATED__",
   "inc6": "neqwdojqwdojqwd qowjdoqwdj qjqwdjqwd j..."
 }
+
