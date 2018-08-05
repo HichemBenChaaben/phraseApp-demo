@@ -52,3 +52,7 @@ Questions? [Contact us](https://phraseapp.com/contact).
 - Releasing the app
     - feature flags
     - git flow / sub modules ?
+        - full integration with github secret key and webhooks
+            this will push / pull to the repo
+         - fixing conflicts ?
+    - what happen if you change a namespace ?
