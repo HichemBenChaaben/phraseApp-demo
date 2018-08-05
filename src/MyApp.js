@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { translate, Trans } from "react-i18next";
+import Block from './Block';
 
 class App extends Component {
   render() {
@@ -18,6 +19,19 @@ class App extends Component {
           <button onClick={() => changeLanguage("fr")}>fr</button>
           <button onClick={() => changeLanguage("nl")}>nl</button>
         </div>
+        <div>
+          {t("message with t props..")}
+          <Trans i18nKey="inc">support incremental update ?</Trans>
+          <Trans i18nKey="welcome message">
+            this is a welcome message here.
+          </Trans>
+          <Trans i18nKey="another welcome message">
+            Another welcome message.
+          </Trans>
+          <Trans i18nKey="samplekey">
+            lorem ipsum ...
+          </Trans>
+        </div>
         <div className="App-intro">
           <Trans i18nKey="introduction">
             To get started, edit <code>src/App.js</code> and save to reload.
@@ -35,14 +49,17 @@ class App extends Component {
             </a>
             .
           </Trans>
-          <Trans count={10} i18nKey="pluralkey">
-            you can do {{count}} plurals.
+          <Trans i18nKey="new-translation-text">
+            New translation added.
           </Trans>
         </div>
         <div style={{ marginTop: 40 }}>
           <a href="https://react.i18next.js">
             Learn more: https://react.i18next.js
           </a>
+        </div>
+        <div>
+          <Block />
         </div>
       </div>
     );

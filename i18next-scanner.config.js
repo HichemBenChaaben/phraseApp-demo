@@ -19,13 +19,10 @@ module.exports = {
         return sha1(value);
       }
     },
-    lngs: ['de', 'fr', 'nl'],
-    ns: [
-      'locale',
-      'resource'
-    ],
+    lngs: ['en'],
+    ns: ['translation'],
     defaultLng: 'en',
-    defaultNs: 'resource',
+    // defaultNs: 'resource',
     defaultValue: '__STRING_NOT_TRANSLATED__',
     resource: {
       loadPath: 'i18n/{{lng}}/{{ns}}.json',
