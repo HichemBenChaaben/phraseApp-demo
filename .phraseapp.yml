@@ -22,4 +22,11 @@ phraseapp:
         params: 
           locale_id: 5d1242900dbc846e78854ed9343f68ae
           update_translations: false
-
+      - file: ./i18n/fr/translations.json
+        params:
+          locale_id: 063c47c62f6254e078038b90c53bc782
+          update_translations: true
+      - file : ./i18n/nl/translation.json
+        params:
+          locale_id: e61c42bb0016e205c1d8049fdfc7db6f
+          update_translations: true
