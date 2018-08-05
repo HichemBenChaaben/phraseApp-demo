@@ -4,22 +4,7 @@ phraseapp:
   project_id: 7a9e7f65cc179ce2a8d625232e7f7042
   pull: 
     targets: 
-      - file: ./i18n/en/translation.json
-        params: 
-          locale_id: 556450dfae1fe937e0798bda63223566
-          update_translations: false
-      - file: ./i18n/de/translation.json
-        params: 
-          locale_id: 5d1242900dbc846e78854ed9343f68ae
-          update_translations: false
+      - file: ./i18n/en/<locale_name>.json
   push: 
     sources:
-      - file: ./i18n/en/translation.json
-        params: 
-          locale_id: 556450dfae1fe937e0798bda63223566
-          update_translations: false
-      - file: ./i18n/de/translation.json
-        params: 
-          locale_id: 5d1242900dbc846e78854ed9343f68ae
-          update_translations: false
-
+      - file: ./i18n/en/<locale_name>.json

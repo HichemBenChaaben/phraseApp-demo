@@ -21,6 +21,8 @@ class App extends Component {
         </div>
         <div>
           {t("message with t props..")}
+          <Trans i18nKey="inc5">new stringqwdjqwdjqwd j...</Trans>
+          <Trans i18nKey="inc4">new string...</Trans>
           <Trans i18nKey="inc3">new translation coming312312h31...</Trans>
           <Trans i18nKey="inc2">new translation coming212312p123...</Trans>
           <Trans i18nKey="inc">support incremental update ?</Trans>
