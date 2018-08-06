@@ -17,5 +17,6 @@
   "welcome message": "this is a welcome message here.",
   "Welcome to React": "__STRING_NOT_TRANSLATED__",
   "differentstuff2": "this is from the block namespaceqdqwdqw",
-  "some placeholder": "__STRING_NOT_TRANSLATED__"
+  "some placeholder": "__STRING_NOT_TRANSLATED__",
+  "newtest": "should get added..."
 }

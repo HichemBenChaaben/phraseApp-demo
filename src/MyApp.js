@@ -22,9 +22,10 @@ class App extends Component {
         <div>
 
           <div>
-            <input placeholder={t('some placeholder')} /> 
+            <input placeholder={t('some placeholder')} />
           </div>
           {t("message with t props..")}
+          <Trans i18nKey="newtest">should get added...</Trans>
           <Trans i18nKey="inc6">neqwdojqwdojqwd qowjdoqwdj qjqwdjqwd j...</Trans>
           <Trans i18nKey="inc5">new stringqwdjqwdjqwd j...</Trans>
           <Trans i18nKey="inc4">new string...</Trans>
